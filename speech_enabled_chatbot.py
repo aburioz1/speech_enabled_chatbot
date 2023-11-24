@@ -8,7 +8,7 @@ import speech_recognition as sr
 
 # Load the text file and preprocess the data
 #nltk.download('punkt')
-with open('C:\\Users\\HP\\Downloads\\nature.txt', 'r', encoding='utf-8') as f:
+with open('nature.txt', 'r', encoding='utf-8') as f:
     data = f.read().replace('\n', ' ')
 data = data.lower()
 sentences = nltk.sent_tokenize(data)
